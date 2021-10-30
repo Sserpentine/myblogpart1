@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="./Assets/logo.svg" alt="">
+        <ul>
+            <li><a href="./signin.html">Login</a></li>
+            <li><a href="./signup.html">Sign up</a></li>
+        </ul>
+    </nav>
+    <div class="welcome-back">
+        LEARN.CODE.REPEAT
+    </div>
+    <div class="sub-text">
+        CODEWALL is a collaborative learning platform for tech enthusiasts. Developers across the world contribute /discuss modern technology, web development and all things coding.
+        <img src="./Assets/illustration on sign up page.svg" alt="" class="login-illustration signup-pic">
+    </div>
+    <div class="myForm">
+        <div class="title">SIGNUP</div>
+        <form action="/php/signup.php" method="post">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+            <div class="password-hint">Muust constist of atleast 8 characters a symbol and upper and lower case letters</div>
+            <label for="password">Confirm Password</label>
+            <input type="password" name="confirmpassword" id="password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
